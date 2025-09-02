@@ -7,6 +7,7 @@ import ErrorMessage from '../components/ErrorMessage'
 import AgeResults from '../components/AgeResults'
 import { calculateAge, validateDate } from '../utils/ageCalculator'
 import { Calendar, Clock, Cake, User } from 'lucide-react';
+import BackButton from '../components/BackButton'
 
 const Calculator=()=> {
 
@@ -94,6 +95,8 @@ const Calculator=()=> {
 
         <AgeResults
           result={result}/>
+
+        <BackButton/>
 
         </div>
       </div>

@@ -7,6 +7,7 @@ export default function App() {
     <Router>
       <Routes>
         <Route path="/" element={<StartPage />} />
+        <Route path="/StartPage" element={<StartPage />} />
         <Route path="/calculator" element={<Calculator />} />
       </Routes>
     </Router>
