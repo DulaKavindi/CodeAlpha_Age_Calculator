@@ -3,7 +3,7 @@ import React from 'react'
 const DataInput= ({label,min,max,placeholder,onChange,value}) =>{
   return (
     <div className='flex flex-col space-y-2'>
-        <label className='text-sm font-medium text-gray-700 dark:text-gray-300'>
+        <label className='text-lg font-medium text-gray-700 dark:text-gray-300'>
             {label}
         </label>
 

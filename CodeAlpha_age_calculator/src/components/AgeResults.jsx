@@ -38,9 +38,9 @@ const AgeResults = ({ result }) => {
             
                 <p className='text-white text-lg'>You are
 
-                    <span className='font-bold text-yellow-300'>{result.years}</span> years,
-                    <span className='font-bold text-yellow-300'>{result.months}</span> months, and
-                    <span className='font-bold text-yellow-300'>{result.days}</span> days old !!
+                    <span className='font-bold text-yellow-300'> {result.years}</span> years,
+                    <span className='font-bold text-yellow-300'> {result.months}</span> months, and
+                    <span className='font-bold text-yellow-300'> {result.days}</span> days old !!
                 </p>
             
             </div>
