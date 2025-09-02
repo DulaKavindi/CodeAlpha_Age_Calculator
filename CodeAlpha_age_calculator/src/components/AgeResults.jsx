@@ -2,8 +2,8 @@ import React from 'react'
 import ResultCard from './ResultCard';
 import { Cake, Calendar, Clock } from 'lucide-react';
 
-const AgeResults=() =>{
 
+const AgeResults = ({ result }) => {
     if (!result) return null;
 
   return (
