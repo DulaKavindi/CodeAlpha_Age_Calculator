@@ -11,7 +11,7 @@ const StartButton=()=> {
 
         <button
             onClick={()=> navigate ("/Calculator")}
-            className='flex-1 bg-gradient-to-r from-purple-500 to-indigo-600 text-white py-8 px-8 rounded-xl font-semibold shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200 disabled:opacity-50 disabled-transform-none flex items-center justify-center space-x-2'>
+            className='w-60 mx-auto bg-gradient-to-r from-purple-500 to-indigo-600 text-white text-2xl py-10 px-1 rounded-xl font-bold shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200 disabled:opacity-50 disabled-transform-none flex items-center justify-center space-x-2'>
                     
                 <Play className='w-5 h-5'/>
                 <span>Start</span>

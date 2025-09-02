@@ -16,7 +16,7 @@ const AgeResults = ({ result }) => {
                 icon={Calendar}
                 label='Years'
                 value={result.years}
-                color='from-pink-500 to-rose-600'/>
+                color='from-yellow-500 to-rose-600'/>
 
             <ResultCard
                 icon={Clock}

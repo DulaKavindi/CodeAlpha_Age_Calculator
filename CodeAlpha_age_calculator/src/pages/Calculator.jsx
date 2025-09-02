@@ -96,7 +96,9 @@ const Calculator=()=> {
         <AgeResults
           result={result}/>
 
-        <BackButton/>
+          <div className='mt-8 flex justify-center'>
+             <BackButton/>
+          </div>
 
         </div>
       </div>
